@@ -10,7 +10,7 @@ Also it is not RFC compliant.
 
 Add following lines to your `Gemfile`.
 
-    gem 'email_validator', :git => "git://github.com/neerajdotname/email_validator.rb"
+    gem 'email_validator', :git => "git://github.com/neerajdotname/email_validator.git"
 
 In model add following lines of code
 
