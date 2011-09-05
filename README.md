@@ -1,10 +1,10 @@
 # Introduction
 
-This is an email validator for Rails3.
+This is an email validator for Rails 3.
 
 I know it is a simple validator and I like simplicity. I just want to keep `john @msn.com` and `john@msncom` away.
 
-Also it is not RFC compliant.
+Also it is not RFC compliant but that is okay with me.
 
 ## Usage
 
