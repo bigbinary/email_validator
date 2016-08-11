@@ -16,6 +16,10 @@ In model add following lines of code
 
     validates :email, :email => true
 
+Outside models
+
+    EmailValidator.regex # returns the regex
+    EmailValidator.valid?('sam@example.com') 
 ## Test
 
     cd test
