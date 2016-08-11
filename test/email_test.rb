@@ -28,3 +28,11 @@ class TestUser < MiniTest::Unit::TestCase
   end
 end
 
+class TestEmailValidator < MiniTest::Unit::TestCase
+  def test_valid
+    assert EmailValidator.valid?('neeraj@BigBinary.com')
+    refute EmailValidator.valid?('john @msn.com')
+    refute EmailValidator.valid?('john@msncom')
+  end
+end
+
